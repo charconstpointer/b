@@ -1,0 +1,1 @@
+bison -d f.y && flex f.l && g++ f.tab.c lex.yy.c -lfl -o f
